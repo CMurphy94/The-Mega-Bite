@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&family=Ubuntu:wght@300;400;500&display=swap');
+
+/***********************************************************************************Jumbotron*/
+
+.jumbotron {
+    background-image: url(/assets/images/jumbotron.jpg);
+    background-size: cover;
+    min-height: 500px;
+    background-position: bottom center;
+    margin-bottom: 0;
+}
+
+.jumbo-text {
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/***********************************************************************************About Us*/
+
+.about-section {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Ubunut', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: lightgrey;
+}
+
+.card-body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+}
+
+/***********************************************************************************About Us*/
+
+.booking-section {
+    text-align: center;
+}
+
+.row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/***********************************************************************************Contact Section*/
+
+.contact-section {
+    text-align: center;
+}
+
+hr {
+    width: 40%;
+    margin-top: 0;
+}
+
+.contact-section > p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/***********************************************************************************Footer*/
+
+.footer-section {
+    background-color: dimgray;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-text {
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
