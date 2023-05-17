@@ -87,7 +87,19 @@ There where a number of different languages used on this website among them:
 
 ## Testing
 
+Through designing the website there was a number of different tests done and changes made on the website.
+
 ### Responsiveness
+
+A number of changes where made to the website to make it more responsive on mobile.
+
+* The nav section was changed to a burger icon that overlapped the hero image making it more visibly appealing to the user.
+
+![navmobile](/assets/images/nav_mobile.PNG)
+
+* The about section was altered to make it easier to read through and move past on mobile by making it containted and individualy scrollable
+
+![aboutmobile](/assets/images/about_mobile.PNG)
 
 ### Validation
 
