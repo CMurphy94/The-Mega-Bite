@@ -69,6 +69,20 @@ There is a number of features already implemented onto the website and further o
 
 ## Languages
 
+There where a number of different languages used on this website among them:
+
+    * HTML5
+
+    * CSS
+
+    * JavaScript
+
+    * Bootstrap
+
+    * Python
+
+    * Django
+
 ----
 
 ## Testing
