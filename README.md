@@ -103,6 +103,8 @@ A number of changes where made to the website to make it more responsive on mobi
 
 ### Validation
 
+HTML passed through [W3C Markup Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmurphy94.github.io%2FThe-Mega-Bite%2F) with only issues being for the user being prevented from inputting any time for their booking and any number of guests.
+
 ----
 
 ## Credits
