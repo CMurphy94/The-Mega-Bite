@@ -108,3 +108,9 @@ HTML passed through [W3C Markup Validation](https://validator.w3.org/nu/?doc=htt
 ----
 
 ## Credits
+
+Credits in regards to inspiration and assistand:
+
+* [Stack Overflow](https://stackoverflow.com/)
+* [W3 Schools](https://www.w3schools.com/)
+* [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
