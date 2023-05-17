@@ -33,8 +33,31 @@ The Wireframe for this websites layout was created on [Whimsical](https://whimsi
 ----
 
 ## Features
+There is a number of features already implemented onto the website and further ones I would like to implement upon improving my knowledge
 
 ### Current Features
+
+* A simple navbar the bring the user to the correct location on the website.
+
+![navbarpc](/assets/images/navbar_pc.PNG)
+
+* An inviting hero image with a large clear button that will bring the user directly to the booking section of the website.
+
+![herobutton](/assets/images/hero_button.PNG)
+
+* An about section that sells the restaurant to the user turning them into a hopeful potential customer.
+
+![about](/assets/images/about_section.PNG)
+
+* A booking form that requires the user to provide all necessary information in order to make a succesful booking as well as providing feeback should they miss any info. This also only allows the user to book up to one month in advance and in half an hour slots when the restaurant is open.
+
+![booking](/assets/images/booking_table.PNG)
+
+* A small contact section that provides the user a contactable phone number, email address and physical address the restaurant as well as their opening hours.
+
+![contact](/assets/images/contact_info.PNG)
+
+
 
 ### Future Features
 
