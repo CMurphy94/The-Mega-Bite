@@ -1,39 +1,49 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Mega Bite
 
-Welcome,
+The Mega Bite is a fictional restuarant. The purpose of the site is to allow potential customers to obtain contact information on the restaurant, read a little bit about the restaurant and also make a reservation to eat there.
+----
+## Contents
+1. [Base Design](#Design "Goto Design")
+    * [Wireframes](#Wireframes "Goto Wireframes")
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+2. [Features](#Features "Goto Features")
+    * [Current Features](#Current-Features "Goto Current Features")
+    * [Future Features](#Future-Features "Goto Future Features")
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+3. [Languages](#Languages "Goto Languages")
 
-## Codeanywhere Reminders
+4. [Testing](#Testing "Goto Testing")
+    * [Responsiveness](#Responsiveness "Goto Responsiveness")
+    * [Validation](#Validation "Goto Validation")
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+5. [Credits](#Credits "Goto Credits")
 
-`python3 -m http.server`
+----
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Base Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Wireframes
 
-`http_server`
+----
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Current Features
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Future Features
 
-To log into the Heroku toolbelt CLI:
+----
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Languages
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+----
 
----
+## Testing
 
-Happy coding!
+### Responsiveness
+
+### Validation
+
+----
+
+## Credits
