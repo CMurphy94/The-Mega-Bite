@@ -21,8 +21,12 @@ The Mega Bite is a fictional restuarant. The purpose of the site is to allow pot
 ----
 
 ## Base Design
+For this website I wanted to make it a simple one page website, the idea of this was to have the user directly as easily as possible to the informatio ther are looking for, this is done but having a simple nav that will bring the user to the section of the website they want to visit as well as an inviting hero image with a button that brings the user to booking section of the website
+![heroimage](/assets/images/hero.PNG)
 
 ### Wireframes
+The Wireframe for this websites layout was created on [Whimsical](https://whimsical.com/). This was my first time using a wireframe for designing a website and felt it added so much benefit to being able to layout the website and code along to make the pieces fit together.
+![wireframe](/assets/images/wireframe.PNG)
 
 ----
 
