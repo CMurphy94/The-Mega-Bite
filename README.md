@@ -61,6 +61,10 @@ There is a number of features already implemented onto the website and further o
 
 ### Future Features
 
+* A user login section wherein the user can have an account with the restaurant to manage their booking such as changing their date/time of the booking, cancel their booking and view their past bookings.
+
+* A possible menu section for the restaurant.
+
 ----
 
 ## Languages
