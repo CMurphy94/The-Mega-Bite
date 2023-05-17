@@ -19,3 +19,43 @@ dateInput.addEventListener('input', function() {
         this.value = maxDate;
     }
 });
+
+// Form feedback
+document.getElementById('booking-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var firstName = document.getElementById('first-name').value;
+    var lastName = document.getElementById('last-name').value;
+    var email = document.getElementById('email-address').value;
+    var phoneNumber = document.getElementById('phone-number').value;
+    var date = document.getElementById('date').value;
+    var time = document.getElementById('time').value;
+    var numberOfPeople = document.getElementById('number-people').value;
+
+    var formData = new FormData(document.getElementById('booking-form'));
+    fetch('/submit-form', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            var confirmationMessage = 'Your booking has been successful!\n\n';
+            confirmationMessage += 'First Name: ' + firstName + '\n';
+            confirmationMessage += 'Last Name: ' + lastName + '\n';
+            confirmationMessage += 'Email Address: ' + emailAddress + '\n';
+            confirmationMessage += 'Phone Number: ' + phoneNumber + '\n';
+            confirmationMessage += 'Date: ' + date + '\n';
+            confirmationMessage += 'Time: ' + time + '\n';
+            confirmationMessage += 'Number of People: ' + numberOfPeople + '\n';
+
+            alert(confirmationMessage);
+        } else {
+            var errorMessage = 'Sorry, the time and date you have selected is unavailable please try selecting a different time and date.';
+            alert(errorMessage);
+        }
+    })
+    .catch(error => {
+        console.error(error);
+    });
+});

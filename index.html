@@ -9,15 +9,18 @@
     <title>The Mega Bite</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#home-part">Home</a>
-            <a class="nav-link" href="#about-part">About Us</a>
-            <a class="nav-link" href="#booking-part">Bookings</a>
-            <a class="nav-link" href="#contact-part">Contact Us</a>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#home-part">Home</a>
+          <a class="nav-link" href="#about-part">About Us</a>
+          <a class="nav-link" href="#booking-part">Bookings</a>
+          <a class="nav-link" href="#contact-part">Contact Us</a>
         </div>
+      </div>
     </nav>
     <div class="jumbotron" id="home-part">
         <h1 class="display-4 jumbo-text">Welcome to The Mega Bite</h1>
@@ -72,29 +75,35 @@
         <h2>BOOK A TABLE</h2>
         <div class="card">
           <div class="card-body">
-            <form>
+            <form id="booking-form" action="/submit-form" method="POST">
               <div class="row">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="First name"required>
+                  <label for="first-name">First Name</label>
+                  <input type="text" class="form-control" id="first-name" placeholder="First name"required>
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name"required>
+                  <label for="last-name">Last Name</label>
+                  <input type="text" class="form-control" id="last-name" placeholder="Last name"required>
                 </div>
               </div>
               <div class="row">
                 <div class="col">
-                  <input type="email" class="form-control" placeholder="Email Address"required>
+                  <label for="email-address">Email Address</label>
+                  <input type="email" class="form-control" id="email-address" placeholder="Email Address"required>
                 </div>
                 <div class="col">
-                  <input type="number" class="form-control" placeholder="Phone Number" required>
+                  <label for="phone-number">Phone Number</label>
+                  <input type="number" class="form-control" id="phone-number" placeholder="Phone Number" required>
                 </div>
               </div>
               <div class="row">
                 <div class="col">
-                  <input type="date" class="form-control" id="date-options" placeholder="Date" required>
+                  <label for="date">Date</label>
+                  <input type="date" class="form-control" id="date" placeholder="Date" required>
                 </div>
                 <div class="col">
-                  <select class="form-control" required>
+                  <label for="time">Time</label>
+                  <select class="form-control" id="time" required>
                     <option>03:00</option>
                     <option>03:30</option>
                     <option>04:00</option>
@@ -109,7 +118,8 @@
                   </select>
                 </div>
                 <div class="col">
-                  <select class="form-control" required>
+                  <label for="number-people">Number of People</label>
+                  <select class="form-control" id="number-people" placeholder="Number of People" required>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -124,7 +134,7 @@
                 </div>
               </div>
               <div class="row justify-content-center">
-                <button type="button" class="btn btn-primary btn-lg">Book Now!</button>
+                <button type="submit" class="btn btn-primary btn-lg">Book Now!</button>
               </div>
             </form>
             
