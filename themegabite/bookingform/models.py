@@ -9,3 +9,6 @@ class Reservation(models.Model):
     time = models.TimeField()
     number_of_people = models.IntegerField()
 
+    def __str__(self):
+        return f'{self.first_name} {self.last_name}'
+
